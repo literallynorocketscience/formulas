@@ -8,6 +8,11 @@ Please stick to some pattern when adding new formulas:
 - A derivation of the formala is nice to have for understanding but not
 mandotory
 - The formulas must be ordered alphabetically
+## Coding conventions
+Each new formula gets it's own subfile in the ```formulas``` directory.
+Orient yourself at the ones already given there.
+Include as shown already in the text by creating a new section
+and then including the subfile.
 ## How to hand in new formulas
 Use ```git-send-email``` to send the patch to
 ```albertsch@posteo.de```
